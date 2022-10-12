@@ -5,6 +5,7 @@ const TEMPLATE_CONFIG = [
     title: '小蒋今日汇报',
     desc: `
       **{{date.DATA}}**
+      
       下个休息日：{{holidaytts.DATA}}
       ---
       城市：{{city.DATA}}
