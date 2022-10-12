@@ -7,7 +7,6 @@
  */
 const USER_CONFIG = {
   USE_PASSAGE: 'push-deer',
-  TIAN_API: '6d6f8b22713f61d34c1969d74c302ced',
   // 使用微信测试号：公众号APP_ID
   APP_ID: '',
 
