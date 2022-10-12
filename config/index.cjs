@@ -15,6 +15,30 @@ const USER_CONFIG = {
 
   PROVINCE: '重庆',
   CITY: '重庆',
+  
+  TIAN_API: {
+  // 天行API KEY，如果使用天行API则需要填写此项
+  key: '6d6f8b22713f61d34c1969d74c302ced',
+
+  /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+  // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+  morningGreeting: true,
+
+  // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+  eveningGreeting: true,
+
+  // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+  eveningGreeting: true,
+
+  // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+  weather: 3,
+
+  // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+  networkHot: 3,
+
+  // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
+  networkHotType: 'default',
+},
 
   USERS: [
     {
