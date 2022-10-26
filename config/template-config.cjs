@@ -41,9 +41,10 @@ const TEMPLATE_CONFIG = [
     id: '0002',
     title: '深夜偶像歌姬粉丝应援团每日推送',
     desc:`
+📆 **{{date.DATA}}**
 
-📆{{date.DATA}}
-👍下个休息日：{{holidaytts.DATA}}
+👍 下个休息日：{{holidaytts.DATA}}
+
 ⛪ 城市：{{city.DATA}}
 
 ☁️ 天气：{{weather.DATA}}
