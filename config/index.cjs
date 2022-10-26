@@ -109,10 +109,42 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0002',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-//       horoscopeDate: '05-12',
+      horoscopeDate: '07-13',
       province: '湖北',
       // 所在城市或县区
       city: '武汉',
+      festivals: [],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [],
+    },
+    {
+      // 想要发送的人的名字
+      name: '小刘老师',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'PDU17294TyHevE4D4by1fbWMjQdxBHkF1Vi1wfoNp',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0002',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '04-12',
+      province: '上海',
+      // 所在城市或县区
+      city: '上海',
+      festivals: [],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [],
+    },
+        {
+      // 想要发送的人的名字
+      name: '小戴老师',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'PDU17292TKggJouNxeGsah0wEBVEgEAnmjuda3J2B',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0002',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '07-13',
+      province: '浙江',
+      // 所在城市或县区
+      city: '杭州',
       festivals: [],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [],
