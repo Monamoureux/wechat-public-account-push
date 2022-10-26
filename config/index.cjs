@@ -71,100 +71,100 @@ const USER_CONFIG = {
 //         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
-    {
-      // 想要发送的人的名字
-      name: '小徐',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU16760TpYNxKXeR3JHqSgAlQEu47MrQMgdMV89P',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '05-12',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '生日', name: '小蒋', year: '1995', date: '05-12',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//     {
+//       // 想要发送的人的名字
+//       name: '小徐',
+//       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+//       id: 'PDU16760TpYNxKXeR3JHqSgAlQEu47MrQMgdMV89P',
+//       // 使用微信测试号：你想对他发送的模板消息的模板ID
+//       useTemplateId: '0001',
+//       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+//       horoscopeDate: '05-12',
+//       festivals: [
+//         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {
-//           type: '生日', name: '李四', year: '1996', date: '09-31',
+//           type: '生日', name: '小蒋', year: '1995', date: '05-12',
 //         },
+//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+// //         {
+// //           type: '生日', name: '李四', year: '1996', date: '09-31',
+// //         },
+// //         {
+// //           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+// //         },
+//       ],
+//       // 我们在一起已经有xxxx天了的配置
+//       customizedDateList: [
+//         // 在一起的日子
+//         { keyword: 'love_day', date: '2018-12-26' },
+//         // 结婚纪念日
+// //         { keyword: 'marry_day', date: '2022-09-09' },
+//       ],
+//     },
+//     {
+//       // 想要发送的人的名字
+//       name: 'BB',
+//       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+//       id: 'PDU17293Th1n7IMC3I12HIh8OCFTbGhnqG1DKyKQK',
+//       // 使用微信测试号：你想对他发送的模板消息的模板ID
+//       useTemplateId: '0002',
+//       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+//       horoscopeDate: '07-13',
+//       province: '湖北',
+//       // 所在城市或县区
+//       city: '武汉',
+//       festivals: [],
+//       // 我们在一起已经有xxxx天了的配置
+//       customizedDateList: [],
+//     },
+//     {
+//       // 想要发送的人的名字
+//       name: '小刘老师',
+//       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+//       id: 'PDU17294TyHevE4D4by1fbWMjQdxBHkF1Vi1wfoNp',
+//       // 使用微信测试号：你想对他发送的模板消息的模板ID
+//       useTemplateId: '0002',
+//       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+//       horoscopeDate: '04-12',
+//       province: '上海',
+//       // 所在城市或县区
+//       city: '上海',
+//       festivals: [],
+//       // 我们在一起已经有xxxx天了的配置
+//       customizedDateList: [],
+//     },
 //         {
-//           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-//         },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2018-12-26' },
-        // 结婚纪念日
-//         { keyword: 'marry_day', date: '2022-09-09' },
-      ],
-    },
-    {
-      // 想要发送的人的名字
-      name: 'BB',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU17293Th1n7IMC3I12HIh8OCFTbGhnqG1DKyKQK',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0002',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '07-13',
-      province: '湖北',
-      // 所在城市或县区
-      city: '武汉',
-      festivals: [],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [],
-    },
-    {
-      // 想要发送的人的名字
-      name: '小刘老师',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU17294TyHevE4D4by1fbWMjQdxBHkF1Vi1wfoNp',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0002',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '04-12',
-      province: '上海',
-      // 所在城市或县区
-      city: '上海',
-      festivals: [],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [],
-    },
-        {
-      // 想要发送的人的名字
-      name: '小戴老师',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU17292TKggJouNxeGsah0wEBVEgEAnmjuda3J2B',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0002',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-10',
-      province: '浙江',
-      // 所在城市或县区
-      city: '杭州',
-      festivals: [],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [],
-    },
-    {
-      // 想要发送的人的名字
-      name: '小王老师',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU17296TzBRaBybYl6XZyZCnlH6UTbiZ83yI1Qne',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0002',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '02-16',
-      province: '山东',
-      // 所在城市或县区
-      city: '日照',
-      festivals: [],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [],
-    },
+//       // 想要发送的人的名字
+//       name: '小戴老师',
+//       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+//       id: 'PDU17292TKggJouNxeGsah0wEBVEgEAnmjuda3J2B',
+//       // 使用微信测试号：你想对他发送的模板消息的模板ID
+//       useTemplateId: '0002',
+//       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+//       horoscopeDate: '11-10',
+//       province: '浙江',
+//       // 所在城市或县区
+//       city: '杭州',
+//       festivals: [],
+//       // 我们在一起已经有xxxx天了的配置
+//       customizedDateList: [],
+//     },
+//     {
+//       // 想要发送的人的名字
+//       name: '小王老师',
+//       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+//       id: 'PDU17296TzBRaBybYl6XZyZCnlH6UTbiZ83yI1Qne',
+//       // 使用微信测试号：你想对他发送的模板消息的模板ID
+//       useTemplateId: '0002',
+//       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+//       horoscopeDate: '02-16',
+//       province: '山东',
+//       // 所在城市或县区
+//       city: '日照',
+//       festivals: [],
+//       // 我们在一起已经有xxxx天了的配置
+//       customizedDateList: [],
+//     },
   ],
 
 
