@@ -141,10 +141,26 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0002',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '07-13',
+      horoscopeDate: '11-10',
       province: '浙江',
       // 所在城市或县区
       city: '杭州',
+      festivals: [],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [],
+    },
+    {
+      // 想要发送的人的名字
+      name: '小王老师',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'PDU17296TzBRaBybYl6XZyZCnlH6UTbiZ83yI1Qne',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0002',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '02-16',
+      province: '山东',
+      // 所在城市或县区
+      city: '日照',
       festivals: [],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [],
